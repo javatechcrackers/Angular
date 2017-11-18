@@ -1,0 +1,26 @@
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AngularJS Shopping Cart</title>
+
+    <!-- STYLESHEET SECTION -->
+
+    <!-- SCRIPT SECTION -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/modules.js"></script>
+    <script src="js/directives/header-directive.js"></script>
+    <script src="js/directives/footer-directive.js"></script>
+
+</head>
+
+<body>
+<div id="main">
+    <div header></div>
+    <div ng-view></div>
+    <div footer></div>
+</div>
+</body>
+</html>
